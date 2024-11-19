@@ -19,28 +19,28 @@ ________________________________________
 Setup Instructions
 1. Clone the Repository
 bash
-Copy code
+
 git clone <repository_url>
 cd stock-data-analysis
 2. Install Dependencies
 Make sure you have Python 3.8+ installed. Install the required libraries:
 bash
-Copy code
+
 pip install -r requirements.txt
 3. Run the APIs Locally
 Start the Flask server:
 bash
-Copy code
+
 python src/api1.py
 or
 bash
-Copy code
+
 python src/api2.py
 APIs will run at http://127.0.0.1:5000.
 ________________________________________
 Project Folder Structure
 graphql
-Copy code
+
 stock-data-analysis/
 ├── data/                  # Folder for sample stock data files (CSV format)
 ├── output/                # Folder to store the processed CSV files with outliers
@@ -69,13 +69,13 @@ Sample Usage
 API 1: Extract Data
 Example request:
 bash
-Copy code
+
 curl -X POST http://127.0.0.1:5000/extract -H "Content-Type: application/json" \
 -d '{"file_path": "data/stock_data.csv", "filters": {"symbol": "AAPL", "start_date": "2023-01-01", "end_date": "2023-12-31"}}'
 API 2: Detect Outliers
 Example request:
 bash
-Copy code
+
 curl -X POST http://127.0.0.1:5000/outliers -H "Content-Type: application/json" \
 -d '{"file_path": "output/filtered_data.csv", "column": "price"}'
 ________________________________________
