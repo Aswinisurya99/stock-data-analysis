@@ -90,7 +90,6 @@ Future Enhancements
 ________________________________________
 Contributing
 Feel free to contribute by submitting issues or pull requests.
-________________________________________
+
 License
 This project is licensed under the MIT License. See LICENSE for details.
-
