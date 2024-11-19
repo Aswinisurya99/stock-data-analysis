@@ -59,9 +59,3 @@ Future Enhancements
 •	Add support for additional statistical analysis methods.
 •	Integrate with a database for dynamic data retrieval.
 •	Deploy APIs using cloud-based solutions (AWS, Azure, GCP).
-
-Contributing
-Feel free to contribute by submitting issues or pull requests.
-
-License
-This project is licensed under the MIT License. See LICENSE for details.
