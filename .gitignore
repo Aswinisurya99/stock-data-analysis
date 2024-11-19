@@ -1,0 +1,13 @@
+# Python virtual environment
+venv/
+
+# Byte-compiled files
+__pycache__/
+
+# Output files and reports
+outliers/
+*.csv
+
+# System files
+.DS_Store
+Thumbs.db
