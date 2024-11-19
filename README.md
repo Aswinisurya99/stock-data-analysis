@@ -26,18 +26,6 @@ pip install -r requirements.txt
 Start the Flask server:
 python src/api1.py
 
-Project Folder Structure
-stock-analysis/
-├── data/
-│   ├── stock_data_2023.csv
-│   ├── stock_data_2022.csv
-│   └── ...
-├── main.py
-├── requirements.txt
-├── utils.py
-├── .gitignore
-└── README.md
-
 API Details
 API 1: Data Extraction
 •	Endpoint: /extract
